@@ -1,0 +1,42 @@
+.branceName{
+    white-space: nowrap;
+    padding: 0px 10px;
+}
+.Delegatefee{
+    white-space: nowrap;
+    padding: 0px 10px;
+}
+.branceCode{
+    white-space: nowrap;
+    padding: 0px 10px;
+   
+}
+.addBrance{
+    display: flex;
+    flex-direction: column;
+}
+.barnaceDeterminOption{
+    font-family: 'SutonnyOMJunicode';
+    font-size: 24px;
+    outline: none;
+    padding: 5px 5px 5px 5px;
+    width: 350px;
+    border: 1px solid #3190b0;
+    color: #000a0e;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+ padding: 7px 16px 15px 17px;
+}
+.CreateDarjo{
+    font-family: 'SutonnyOMJunicode';
+    font-size: 24px;
+    outline: none;
+    padding: 5px 5px 5px 5px;
+    width: 338px;
+    border: 1px solid #3190b0;
+    color: #000a0e;
+    border-radius: 10px;
+    margin-top: 20px;
+}

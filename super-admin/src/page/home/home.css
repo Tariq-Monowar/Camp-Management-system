@@ -1,0 +1,43 @@
+.homePageContainers{
+ height: 100vh;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.homeTitles{
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.indexbtn{
+    text-align: center;
+}
+
+.homepageIndexBtn{
+    margin: 10px 10px 7px 10px;
+    font-weight: bold;
+    text-transform: none;
+    border-radius: 10px;
+    background: #2f96be;
+    width: 230px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+}.homepageIndexBtn:hover{
+    transition: .1s;
+    background: rgb(66, 176, 219);
+}.homepageIndexBtn:active{
+    /* transition: .1s; */
+    transform: scale(0.95);
+    opacity: .5;
+}
+
+@media only screen and (max-width: 390px) {
+    .homeTitles{
+        font-size: 29px;
+    }
+}

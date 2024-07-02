@@ -1,0 +1,10 @@
+/* @font-face {
+    font-family: "SutonnyOMJunicodes";
+    src: url("../../../assets/font/SutonnyOMJunicode.ttf");
+  } */
+
+@import url("https://fonts.googleapis.com/css2?family=Neuton:wght@200;300;400&display=swap");
+
+.certificateTable {
+  font-family: "Neuton", serif;
+}

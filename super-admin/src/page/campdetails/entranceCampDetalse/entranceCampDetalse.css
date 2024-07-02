@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "SutonnyOMJunicode";
+    src: url("../../assets/font/SutonnyMJ-raguler.ttf");
+  }
+  
+  .homeSection {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeSections{
+    padding-top: 15vh;
+  }
+  
+  .navBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background: #c5e9f7;
+    height: 10vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    font-size: 30px;
+    top: 0;
+    position: fixed;
+  }
+  .modalOpanBar {
+    color: #20a9e0;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 10px;
+  }
+  .modalOpanBar:active {
+    opacity: 0.5;
+    transform: scale(0.95);
+  }
+  .modalOpanBar:hover {
+    transition: 0.1s;
+    color: #0d8bbd;
+  }
+  .homeTitle p {
+    font-weight: bold;
+    color: #000000e6;
+    letter-spacing: 1px;
+  }
+  .logoutIcon {
+    color: #000000c0;
+    font-size: 33px;
+    border-radius: 50%;
+  }
+  .logoutIcon:hover {
+    transition: 0.1s;
+    color: #000000e7;
+  }
+  .logoutIcon:active {
+    opacity: 0.5;
+    transform: scale(0.95);
+  }
+  
+  /*   Home section     */
+  .homeAllBtn {
+    text-align: center;
+    width: 100%;
+    animation: .3s ease-in 0s 1 hideButtonAnimation;
+  }  
+  @keyframes hideButtonAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+  .homeLinkBtn button {
+    letter-spacing: 1px;
+    font-family:  "SutonnyOMJunicode", serif;
+    font-size: 25px;
+    font-weight: 500;
+    background: #0084b9e6;
+    border: none;
+    color: #fff;
+    margin: 5px;
+    padding: 10px 10px 5px 10px;
+    border-radius: 10px;
+  }
+  .homeLinkBtn button:hover {
+    transform: 0.2s;
+    background: #006b96e6;
+  }
+  .homeLinkBtn button:active {
+    opacity: 0.5;
+    transform: scale(0.95);
+  }
+  
+  
+  @media only screen and (max-width: 500px) {
+      .modalOpanBar{
+          font-size: 30px;
+      }
+      .homeTitle p{
+          font-size: 27px;
+          margin-top: -5px;
+      }
+      .logoutIcon{
+          font-size: 30px;
+      }
+  }
+  @media only screen and (max-width: 446px) {
+      .modalOpanBar{
+          font-size: 27px;
+      }
+      .homeTitle p{
+          font-size: 26px;
+          margin-top: -3px;
+      }
+      .logoutIcon{
+          font-size: 27px;
+      }
+  }
+  @media only screen and (max-width: 390px) {
+      .modalOpanBar{
+          font-size: 27px;
+          margin-left: 7px;
+      }
+      .homeTitle p{
+          font-size: 22px;
+          margin-top: -3px;
+      }
+      .logoutIcon{
+          font-size: 26px;
+      }
+      .homeLinkBtn button{
+          font-size: 21px;
+      }
+  }
+  @media only screen and (max-width: 325px) {
+      .homeTitle p{
+          font-size: 20px;
+          margin-top: -3px;
+      }
+  }
+  @media only screen and (max-width: 308px) {
+      .modalOpanBar{
+          font-size: 25px;
+          margin-left: 3px;
+      }
+      .homeTitle p{
+          font-size: 19px;
+          /* margin-top: -3px; */
+      }
+      .logoutIcon{
+          font-size: 21px;
+      }
+  }
+  @media only screen and (max-width: 275px) {
+      .modalOpanBar{
+          font-size: 25px;
+          margin-left: 3px;
+      }
+      .homeTitle p{
+          display: none;
+      }
+      .logoutIcon{
+          font-size: 21px;
+      }
+      .homeLinkBtn button{
+          flex-direction: column;
+          font-size: 19px;
+      }
+  }
+  

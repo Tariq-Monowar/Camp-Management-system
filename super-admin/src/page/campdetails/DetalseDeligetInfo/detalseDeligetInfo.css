@@ -1,0 +1,198 @@
+.delegetDetalseInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  flex-direction: column;
+  font-family: normal;
+  background-color: #c5e9f763;
+  animation: 0.5s ease-in 0s 1 opacity-animation;
+  width: 100vw;
+  overflow-x: hidden;
+  padding-bottom: 60px;
+}
+@keyframes opacity-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.kuriImage {
+  width: 190px; /* Adjust as needed */
+  height: 190px; /* Adjust as needed */
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #79bcd6;
+}
+.kuriImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+.deligetAllData {
+  display: flex;
+  justify-content: center;
+  margin: 0px 10px;
+}
+
+.detalseDev div {
+  margin: 20px 10px;
+}
+.detalseDev span {
+  font-family: "SutonnyOMJunicode";
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.detalseDev p {
+  font-size: 23px;
+}
+.divleftdet {
+  text-align: right;
+  margin-left: 100px;
+}
+.updateImaged {
+  margin-top: -4px;
+  margin-bottom: 17px;
+}
+.updateImaged input {
+  font-size: 18px;
+  /* padding: 7px 4px 7px 6px; */
+  outline: none;
+  border: 1px solid #0084b9e6;
+  border-radius: 7px;
+}
+
+@media only screen and (max-width: 550px) {
+  .divleftdet {
+    text-align: left;
+    margin-left: 0;
+    margin-top: -15px;
+  }
+  .deligetAllData {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 120px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .deligetAllData {
+    margin-left: 90px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .deligetAllData {
+    margin-left: 30px;
+  }
+  .updateImaged input {
+    width: 295px;
+  }
+}
+/* regCreateBrnList */
+
+.delegateDataComment {
+  width: 570px;
+  margin-left: 15px;
+  margin-left: -10px;
+}
+.delegateDataComment span {
+  font-family: "SutonnyOMJunicode";
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.delegateDataComment textarea {
+  width: 100%;
+  border: 1px solid #a7ddf3;
+  /* border-bottom: 1px solid; */
+  resize: vertical;
+  background-color: transparent;
+  color: #000000;
+  font-size: 17px;
+  outline: none;
+  padding: 5px;
+  border-radius: 10px;
+  height: 100px;
+  overflow-y: scroll;
+}
+
+.delegateDataComment textarea::-webkit-scrollbar {
+  width: 9px;
+}
+
+.delegateDataComment textarea::-webkit-scrollbar-thumb {
+  background-color: #9dd7ee;
+  border-radius: 15px;
+}
+
+.delegateDataComment textarea::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+@media only screen and (max-width: 647px) {
+  .delegateDataComment {
+    width: 80vw;
+  }
+  .delegateDataComment textarea {
+    overflow-x: hidden;
+  }
+}
+
+/* comment */
+.comments {
+  margin-left: 12px;
+  margin-top: 10px;
+}
+.comments span {
+  font-family: "SutonnyOMJunicode";
+  font-size: 21px;
+  color: #000708;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.comments textarea {
+  border: 1px solid #188fbf;
+  border-radius: 8px;
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  font-size: 17px;
+  width: 605px;
+  resize: vertical;
+  min-height: 75px;
+  overflow-y: scroll;
+}
+@media only screen and (max-width: 692px) {
+  .comments {
+    width: 100%;
+  }
+  .comments textarea {
+  }
+}
+@media only screen and (max-width: 481px) {
+  .comments {
+    margin-left: 13px;
+    width: 300px;
+  }
+  .comments textarea {
+    width: 270px;
+  }
+}
+.comments textarea::-webkit-scrollbar {
+  width: 9px;
+}
+
+.comments textarea::-webkit-scrollbar-thumb {
+  background-color: #9dd7ee;
+  border-radius: 15px;
+}
+
+.comments textarea::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
