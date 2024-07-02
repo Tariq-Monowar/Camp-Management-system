@@ -1,0 +1,94 @@
+.DrowerManue {
+  width: 290px;
+  z-index: 0;
+  background: linear-gradient(
+    169deg,
+    #84cdea8f 0%,
+    rgb(126 184 207 / 39%) 41%,
+    rgb(203 221 227) 100%
+  );
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.DrowerManue::-webkit-scrollbar {
+  width: 0px;
+}
+
+.DrowerManue::-webkit-scrollbar-thumb {
+  background-color: #9dd7ee;
+  border-radius: 15px;
+}
+
+.DrowerManue::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.drowerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px!important;
+}
+
+.goTohomePage {
+  width: 120px;
+  opacity: 0.9;
+  user-select: none;
+}
+
+.goTohomePage:hover {
+  transition: 0.2s;
+  color: #02a1e0;
+  transform: scale(1.05);
+}
+.goTohomePage:active {
+  transition: 0.2s;
+  opacity: 0.5;
+  transform: scale(0.9);
+}
+
+.crossDrower {
+  /* text-align: center; */
+  width: 27px;
+  height: 27px;
+  background-color: #0194ce;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 19px;
+  font-weight: bold;
+  /* box-shadow: #4141419c 0px 0px 8px 0px; */
+  margin-right: 5px;
+}
+.crossDrower:hover {
+  background-color: #02a1e0;
+}
+.crossDrower:active {
+  transition: 0.2s;
+  opacity: 0.5;
+  opacity: 0.5;
+  transform: scale(0.9);
+}
+
+.userDrowerButton button {
+    width: 100%;
+    border: none;
+    background: #1f7b9fd5;
+    font-family: "SutonnyOMJunicode";
+    font-size: 31px;
+    text-align: left;
+    padding: 10px 5px 10px 15px!important;
+    color: #ffff;
+}
+
+.userDrowerButton button:hover{
+    transition: .2s;
+    background: #146586d5;
+}
+.userDrowerButton button:active{
+    opacity: .7;
+}

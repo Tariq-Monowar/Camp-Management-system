@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "SutonnyOMJunicode";
+  src: url("./assets/font/SutonnyOMJunicode.ttf");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+  font-family: "SutonnyOMJunicode";
+}
+
+body::-webkit-scrollbar {
+  width: 9px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #9dd7ee;
+  border-radius: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}

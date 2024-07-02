@@ -1,0 +1,81 @@
+.delecteCardContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 11vh;
+}
+
+.delegetCard {
+  width: 100%;
+  text-align: center;
+}
+.cards {
+  width: 300px;
+  /* height: 400px; */
+  /* border: 1px solid #00202c; */
+  display: inline-block;
+  margin: 10px;
+  /* background: rgb(184,207,217); */
+  border: 1px solid #9a9a9a;
+  display: inline-block;
+  margin: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(184, 207, 217, 1) 0%,
+    rgba(189, 224, 238, 1) 45%,
+    rgba(188, 224, 238, 1) 58%,
+    rgba(187, 224, 238, 1) 84%,
+    rgba(185, 224, 238, 1) 100%
+  );
+  border-radius: 5px;
+  color: #000000f2;
+}
+.branceNames {
+  font-size: 25px;
+  margin-top: 5px!important;
+  font-weight: bold;
+  margin-bottom: 4px!important;
+
+}
+.delegetCodes {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.delegetCodes span {
+  font-size: 21px;
+  padding-top: 4px!important;
+  font-weight: bold;
+  padding-bottom: 3px!important;
+  border-right: 1px solid #9a9a9a;
+  width: 50%;
+}
+.delegetCodes p {
+  width: 50%;
+  font-size: 20px;
+  margin-top: 4px!important;
+  font-weight: bold;
+  margin-bottom: 3px!important;
+}
+.otherData div {
+  display: flex;
+  margin-left: 10px;
+}
+.otherData div span {
+  font-size: 20px;
+  margin-top: 4px!important;
+  font-weight: bold;
+  margin-bottom: 3px!important;
+  margin-right: 11px;
+}
+.otherData div p {
+  font-size: 20px;
+  margin-top: 4px!important;
+  font-weight: bold;
+  margin-bottom: 3px!important;
+}
+.DelegetcodeData{
+  font-family: "SutonnyOMJunicode";
+}

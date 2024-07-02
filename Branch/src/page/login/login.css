@@ -1,0 +1,334 @@
+.LoginNavBar {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #c5e9f7; */
+  background-color: #bad9e58a;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  position: fixed;
+}
+.backIcon {
+  font-size: 39px;
+  /* transform: scaleX(1.4); */
+  color: #20a9e0;
+  position: absolute;
+  left: 0;
+  margin-left: 20px;
+}
+.backIcon:hover {
+  transition: 0.2s;
+  color: #0685b8;
+}
+.backIcon:active {
+  opacity: 0.6;
+}
+.LoginNavBar p {
+  font-size: 27px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #040d10;
+}
+.campCardContainer {
+  text-align: center;
+  padding-top: 12vh;
+}
+.campCard {
+  width: 310px;
+  /* height: 210px; */
+  background: #d9e3e7;
+  /*background: #772c2c;   #c5eeff86;*/
+  /*#c5eeff86;*/
+  margin: 18px;
+  /* padding: 16px; */
+  text-align: left;
+  border-radius: 15px;
+  box-shadow: rgb(0 0 0 / 14%) 5px 5px 28px, rgb(0 0 0 / 6%) 4px 4px 10px;
+  display: inline-block;
+  font-family: normal;
+  padding: 15px 15px 15px 15px;
+  animation: 1s ease-out 0s 1 opacity-animation;
+}
+.campCard:hover {
+  transition: 0.3s;
+  background: #c1cfd8;
+}
+.campCard:active {
+  opacity: 0.6;
+}
+@keyframes opacity-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.campCard span {
+  font-size: 20px;
+  font-family: "SutonnyOMJunicode";
+  font-weight: bold;
+  margin-top: 15px;
+}
+.campCard p {
+  font-size: 26px;
+  font-family: "SutonnyOMJunicode";
+
+  /* font-weight: bold; */
+}
+.hrCard {
+  width: 100px;
+  /* margin: 0 auto; */
+  border: 2px solid #a7ccd8;
+  height: 3px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: rgb(0 0 0 / 14%) 5px 5px 28px, rgb(0 0 0 / 6%) 4px 4px 10px;
+  /* margin: 10px 0px 10px 0px; */
+  margin-top: 2px;
+  margin-bottom: 5px;
+  color: #040d10d3;
+}
+.dateCard {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -4px;
+  color: #000e13;
+}
+
+.campStartDate {
+  margin-top: 15px;
+  color: #000e13;
+}
+.campStartDate span {
+  font-size: 20px;
+  font-family: "SutonnyOMJunicode";
+  font-weight: bold;
+  margin-top: 15px;
+  margin-top: 15px;
+}
+.campStartDate p {
+  font-size: 21px;
+  font-family: "SutonnyOMJunicode";
+}
+
+/* 
+.loginContainer{
+    font-family: 'Source Serif 4', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.loginContent{
+    background-color: #c5e9f7;
+    padding: 15px 30px;
+    border-radius: 10px;
+    width: 320px;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+}
+.loginForm h1{
+    color: #20a9e0;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.loginForm .LoginEmail{
+    font-size: 21px;
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+
+.passwordContaner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    height: 42px;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+.passwordContaner .loginPassword{
+    border: none;
+    font-size: 21px;
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    background: transparent; 
+}
+.showHideIcon{
+    margin-top: 7px;
+    margin-right: 20px;
+    font-size: 22px;
+    color: #04709b;
+    margin-left: -57px;
+}
+
+.loginForm button{
+   background: #20a9e0;
+   border: none;
+   font-weight: bold;
+   font-size: 21px;
+   padding: 8px 0px;
+   margin-top: 25px;
+   border-radius: 10px;
+   color: #fff;
+   margin-bottom: 20px;
+   user-select: none;
+}
+.loginForm button:hover{
+    transition: .2s;
+    background: #1892c2;
+    transform: scale(1.04);
+}.loginForm button:active{
+    opacity: .6;
+    transform: scale(0.96);
+}
+.loginForm img{
+    width: 90px;
+    margin: 10px auto;
+    opacity: .9;
+}
+
+@media only screen and (max-width: 440px) {
+    .loginContent{
+        width: 290px;
+        padding: 15px 25px;
+    }
+    .passwordContaner .loginPassword{
+       width: 240px;
+    }
+    .showHideIcon{
+        margin-left: -32px;
+    }
+    .loginForm .LoginEmail{
+        font-size: 19px;
+    }
+    .passwordContaner .loginPassword{
+        font-size: 19px;
+    }
+    .loginForm h1{
+        font-size: 40px;
+    }
+    .loginContent{
+        margin-top: -50px;
+    }
+    .loginForm img{
+        width: 85px;
+    }
+  } */
+
+.loginRegiment {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innerLogContainner {
+  width: 300px;
+  background-color: #c5e9f7;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.loginForm h1 {
+  color: #20a9e0;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.loginForm img {
+  width: 90px;
+  margin: 10px auto;
+  opacity: 0.9;
+  margin-top: 2px;
+  margin: 0 auto;
+}
+.selectBrance {
+  width: 100%;
+}
+.selectBrance select {
+  width: 98%;
+  margin: 0 auto;
+  outline: none;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: "SutonnyOMJunicode";
+  padding: 8px 5px 5px 5px;
+  border-radius: 10px;
+  border: none;
+  color: #000e13;
+}
+.Brancepassword {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  /* margin-left: -5px; */
+}
+.Brancepassword .password {
+  width: 100%;
+  outline: none;
+  font-family: "SutonnyOMJunicode";
+  font-size: 21px;
+  padding: 8px 5px 5px 8px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 17px;
+  margin-left: -12px;
+}
+.showHideIcon {
+  margin-top: 25px;
+  /* margin-right: 20px; */
+  font-size: 22px;
+  color: #04709b;
+  /* margin-left: -11px; */
+  margin-left: -10px;
+}
+.showHideIcons {
+  margin-left: -20px;
+}
+
+.loginForm button {
+  background: #20a9e0;
+  border: none;
+  font-weight: bold;
+  font-size: 21px;
+  padding: 8px 0px;
+  margin-top: 25px;
+  border-radius: 10px;
+  color: #fff;
+  margin-bottom: 20px;
+  user-select: none;
+  width: 98%;
+  margin: 20px auto;
+}
+.loginForm button:hover {
+  transition: 0.2s;
+  background: #1892c2;
+  transform: scale(1.04);
+}
+.loginForm button:active {
+  opacity: 0.6;
+  transform: scale(0.96);
+}
