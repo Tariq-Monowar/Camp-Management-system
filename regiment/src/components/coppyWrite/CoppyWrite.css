@@ -1,0 +1,30 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Neuton:wght@200;300;400&display=swap');*/
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300;400;500&display=swap");
+.coppywrite {
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: normal;
+  /* height:65px; */
+  background-color: #d7e8ee;
+  font-weight: 500;
+  /* font-family: 'Neuton', serif; */
+  font-family: "Crimson Pro", serif;
+  flex-direction: column;
+}
+.coppywrite span {
+  font-family: "SutonnyOMJunicode";
+  font-size: 19px;
+  margin: 0px 20px;
+  margin-top: 10px;
+}
+.coppywrite p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.coppywrite a{
+    text-decoration: none;
+    color: #2f96be;
+}
