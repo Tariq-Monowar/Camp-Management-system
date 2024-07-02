@@ -1,2 +1,2 @@
-# camp-management-system-regiment
-
+# regiment
+camp-management-system
