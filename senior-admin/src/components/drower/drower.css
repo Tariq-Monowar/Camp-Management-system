@@ -1,0 +1,224 @@
+.DrowerManue {
+  width: 292px;
+  z-index: 0;
+  background: linear-gradient(169deg, #84cdea8f 0%, rgb(126 184 207 / 39%) 41%, rgb(203 221 227) 100%);
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.DrowerManue::-webkit-scrollbar {
+  width: 0px;
+}
+
+.DrowerManue::-webkit-scrollbar-thumb {
+  background-color: #9dd7ee;
+  border-radius: 15px;
+}
+
+.DrowerManue::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+
+.drowerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.goTohomePage {
+  width: 120px;
+  opacity: 0.9;
+  user-select: none;
+}
+
+.goTohomePage:hover {
+  transition: 0.2s;
+  color: #02a1e0;
+  transform: scale(1.05);
+}
+.goTohomePage:active {
+  transition: 0.2s;
+  opacity: 0.5;
+  transform: scale(0.9);
+}
+
+.crossDrower {
+  /* text-align: center; */
+  width: 27px;
+  height: 27px;
+  background-color: #0194ce;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 19px;
+  font-weight: bold;
+  box-shadow: #4141419c 0px 0px 8px 0px;
+  margin-right: 5px;
+}
+.crossDrower:hover {
+  background-color: #02a1e0;
+}
+.crossDrower:active {
+  transition: 0.2s;
+  opacity: 0.5;
+  opacity: 0.5;
+  transform: scale(0.9);
+}
+/* .browerBtn {
+  z-index: 0;
+}
+.newCamp {
+  width: 100%;
+  background: #20aae0b9;
+  border: none;
+  font-family: "Nunito Sans", "SutonnyOMJunicode", serif;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.newCamp:hover {
+  transition: 0.2s;
+  background: #1992c2;
+}
+.newCamp:active {
+  opacity: 0.5;
+}
+
+.faq {
+  width: 100%;
+  background: #20a9e0;
+  border: none;
+  font-family: "Nunito Sans", "SutonnyOMJunicode", serif;
+  color: #fff;
+  font-size: 30px;
+
+}
+.faq:hover {
+  transition: 0.2s;
+  background: #1992c2;
+}
+.faq:active {
+  opacity: 0.5;
+}
+
+
+.showTalika{
+    width: 100%;
+    background: #20a9e0;
+    border: none;
+    font-family: "Nunito Sans", "SutonnyOMJunicode", serif;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 10px;
+    animation: .5s ease-in 0s 1 faq-animation;
+}
+@keyframes faq-animation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+
+  .dropDownIcon{
+    
+  } */
+
+.talikaFaq {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #2d9ecbe1; */
+  background-color: #368fb2d5;
+  padding: 7px 0px;
+  /* box-shadow: rgb(61 163 204 / 13%) -2px -11px 14px 10px, rgb(5 111 152 / 9%) 2px -7px 20px 0px; */
+}
+.talikaFaq:hover {
+  transition: 0.2s;
+  background-color: rgba(28, 120, 156, 0.835);
+}
+.talikaFaq:hover .talikaBtn {
+  transition: 0.2s;
+  background-color: #3fa7d000;
+}
+.talikaBtn {
+  color: #fff;
+  background-color: #3fa7d000;
+  font-size: 31px;
+  border: none;
+  font-family: "SutonnyOMJunicode", serif;
+  margin-left: 15px;
+  user-select: none;
+}
+.dropDownIcon {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-right: 17px;
+}
+.truetalika {
+  transform: rotate(180deg);
+  animation: 0.2s ease-in 0s 1 rotat-animation;
+}
+@keyframes rotat-animation {
+  0% {
+    transform: rotate(365deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+.talikanames {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsla(197, 81%, 33%, 0.658);
+  padding: 7px 0px 7px 10px;
+  animation: 0.5s ease-in 0s 1 faq-opacity-animation;
+}
+@keyframes faq-opacity-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.talikanames:hover{
+  transition: .2s;
+  background-color: hsla(197, 58%, 40%, 0.856);
+}
+
+
+.talikaname {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4593b3cf;
+  padding: 7px 0px 7px 19px;
+}
+
+.talikaname:hover{
+  transition: .2s;
+  background-color: #3482a1cf;
+}
+
+.talikaDropBtn{
+  color: #fff;
+  background-color: #3fa7d000;
+  font-size: 23px;
+  border: none;
+  font-family: "SutonnyOMJunicode", serif;
+  margin-left: 17px;
+  user-select: none;
+}

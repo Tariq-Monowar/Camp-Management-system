@@ -1,0 +1,478 @@
+/* Font */
+
+.homePageContainer {
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+    /* height: 100vh; */
+    margin: 0 auto;
+  }
+  .regimentTitle {
+    font-size: 32px;
+    margin-bottom: 15px;
+    margin-top: 15vh;
+  }
+  .downloadeShoit {
+    margin: 0 auto;
+    font-size: 27px;
+    color: #2f728c;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .pdfDownloade {
+    margin-right: 15px;
+  }
+  .pdfDownloade:hover {
+    transition: 0.1s;
+    color: #10769e;
+    transform: scale(1.1);
+  }
+  .pdfDownloade:active {
+    transition: 0.1s;
+    opacity: 0.5;
+    transform: scale(0.95);
+  }
+  .excelDownloade {
+    font-size: 30px;
+    margin-left: 15px;
+  }
+  .excelDownloade:hover {
+    transition: 0.1s;
+    color: #10769e;
+    transform: scale(1.1);
+  }
+  .excelDownloade:active {
+    transition: 0.1s;
+    opacity: 0.5;
+    transform: scale(0.95);
+  }
+  
+  .regimentLest {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .regimentTable {
+    font-family: "SutonnyOMJunicode" sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 25px;
+    margin-top: 13px;
+  }
+  
+  .regimentTable tr td,
+  .regimentTable tr th {
+    border: 1px solid #a4c8d6b3;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .regimentTable tr:nth-child(even) {
+    background-color: #c5e9f7b3;
+    border-radius: 10px;
+    white-space: nowrap;
+  }
+  .regName {
+    min-width: 300px;
+  }
+  .listNumber {
+    min-width: 30px;
+  }
+  .roomNumber {
+    min-width: 105px;
+  }
+  .actionud {
+    min-width: 75px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .actionud .updateBtn:hover {
+    transition: 0.1s;
+    color: #1b86b1;
+    transform: scale(1.1);
+  }
+  .actionud .updateBtn:active {
+    transition: 0.1s;
+    opacity: 0.5;
+    transform: scale(0.95);
+  }
+  .actionud .deleteBtn {
+    font-size: 24px;
+    margin-left: 5px;
+  }
+  .actionud .deleteBtn:hover {
+    transition: 0.1s;
+    color: #10769e;
+    transform: scale(1.1);
+  }
+  .actionud .deleteBtn:active {
+    transition: 0.1s;
+    opacity: 0.5;
+    transform: scale(0.95);
+  }
+  
+  .regCreateBrnList {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  
+  .regimentBtn {
+    margin: 30px 10px 7px 10px;
+    text-transform: none;
+    border-radius: 10px;
+    background: #127fa4de;
+    width: 230px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    font-family: "SutonnyOMJunicode" sans-serif;
+  }
+  .regimentBtn:hover {
+    transition: 0.1s;
+    background: #0d85b6;
+  }
+  .regimentBtn:active {
+    /* transition: .1s; */
+    transform: scale(0.95);
+    opacity: 0.5;
+  }
+  
+  @media only screen and (max-width: 390px) {
+    .regCreateBrnList {
+      margin: 0 auto;
+      width: 300px;
+      text-align: center;
+    }
+    .margintop {
+      margin-top: 7px;
+    }
+  }
+  
+  .regNavBar {
+    display: flex;
+    align-items: center;
+  
+    height: 9vh;
+    background: #c5e9f7;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    position: fixed;
+    width: 100%;
+  }
+  .regNavBar {
+    width: 100%;
+    text-align: center;
+  }
+  .regNavBar h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+  }
+  .createRegBtn {
+    margin-left: auto;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    /* border-bottom-left-radius: 20px ; */
+    height: 9vh;
+    text-transform: none;
+    background: #127fa4de;
+    width: 230px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    font-family: "SutonnyOMJunicode" sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  .createRegBtn:hover {
+    transition: 0.2s;
+    background: #0d89b3de;
+  }
+  .createRegBtn:active {
+    opacity: 0.6;
+  }
+  /* .createRegBtn{
+       float: right;
+    } */
+  
+  /* regimrntForm */
+  .regCreateForm {
+    width: 400px;
+  }
+  .regCreateForm span {
+    font-family: "SutonnyOMJunicode" sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.9;
+    margin-bottom: 2px;
+    color: #000e13;
+    margin-left: 5px;
+  }
+  .regCreateForm .regimentNameDev,
+  .regCreateForm .regmentPlaceDev {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+  }
+  .regCreateForm div input {
+    font-size: 18px;
+    padding: 6px 0px 6px 3px;
+    border: 1px solid #127fa4de;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 10px;
+  }
+  .submitReg {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: #127fa4de;
+    width: 110px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    height: 37px;
+  }
+  .submitReg:hover {
+    transition: 0.1s;
+    background: #0d85b6;
+  }
+  .submitReg:active {
+    /* transition: .1s; */
+    transform: scale(0.95);
+    opacity: 0.5;
+  }
+  .closeIcon {
+    font-weight: bold;
+    background: #646668;
+    border-radius: 50%;
+    color: #fff;
+    float: right;
+    margin-top: 4px;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .regCreateForm {
+      width: 100%;
+      /* margin-right: 10px; */
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+      width: 100vw !important;
+    }
+    .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+      margin: 10px !important;
+      /* width: 87vw; */
+    }
+  }
+  /*
+  @media only screen and (max-width: 365px) {
+    .regCreateForm {
+      width: 90vw;
+      margin: 0px;
+    }
+    .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+      margin: 5px!important;
+    }
+  } */
+  /* @media only screen and (max-width: 330px) {
+    .regCreateForm {
+      width: 250px;
+      margin: 0px;
+    }
+    .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+      margin: 5px!important;
+    }
+  } */
+  
+  .detalseInfoo {
+    color: #0076a5;
+    border: none;
+    text-decoration: underline;
+    font-size: 13px;
+    margin: 6px 0px 7px 0px;
+  }
+  .detalseInfoo:hover {
+    color: #0287bb;
+    transform: scale(1.03);
+  }
+  .detalseInfoo:active {
+    transform: scale(0.95);
+    color: #005d81;
+  }
+  
+
+
+
+  .createCampContainer {
+    height: 100vh;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .createCampTitles {
+    font-size: 33px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .createCampInput {
+    text-align: center;
+    font-family: normal;
+  }
+  .createCamp {
+    width: 400px;
+  }
+  .createCamp input[type="text"] {
+    font-size: 21px;
+    padding: 6px 5px 5px 7px;
+    /* border: none; */
+    border: 1px solid #20a9e0;
+    display: block;
+    margin: 20px 0px;
+    border-radius: 10px;
+    font-family: normal;
+    width: 96%;
+  }
+  
+  .createCamp input:focus {
+    outline: none;
+  }
+  .selectTime {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+  }
+  .selectTime input[type="date"] {
+    text-align: center;
+    border: none;
+    background: #20aae04b;
+    font-size: 18px;
+    padding: 9px 10px 9px 5px;
+    border-radius: 10px;
+    color: #002838;
+    /* margin-right: 6px; */
+    width: 45%;
+  }
+  /* .createCamp button {
+    width: 98%;
+    background: #20a9e0;
+    border: none;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 5px 0px;
+    border-radius: 10px;
+    margin-top: 20px;
+  } */
+  .selectYear {
+    width: 100%;
+    margin-top: 10px;
+  
+  }
+  .selectYear select {
+    width: 98%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #118bbb;
+    padding: 6px 5px;
+    outline: none;
+  }
+  
+  .createCampBtns {
+    margin: 35px 0px 7px 0px;
+    text-transform: none;
+    border-radius: 10px;
+    background: #168ebe;
+    width: 240px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    font-family: "SutonnyOMJunicode" sans-serif;
+  }
+  .createCampBtns:hover {
+    transition: 0.1s;
+    background: #0d85b6;
+  }
+  .createCampBtns:active {
+    /* transition: .1s; */
+    transform: scale(0.95);
+    opacity: 0.5;
+  }
+  @media only screen and (max-width: 450px) {
+    .createCamp {
+      width: 300px;
+    }
+    .selectTime input[type="date"]{
+      width: 43%;
+      padding: 9px 5px 9px 5px;
+    }
+  }
+  @media only screen and (max-width: 305px) {
+    .createCamp {
+      width: 260px;
+    }
+    .selectTime input[type="date"]{
+      width: 45%;
+      padding: 9px 1px 9px 1px;
+    }
+  }
+
+
+  .branceName{
+    white-space: nowrap;
+    padding: 0px 10px;
+}
+.Delegatefee{
+    white-space: nowrap;
+    padding: 0px 10px;
+}
+.branceCode{
+    white-space: nowrap;
+    padding: 0px 10px;
+   
+}
+.addBrance{
+    display: flex;
+    flex-direction: column;
+}
+.barnaceDeterminOption{
+    font-family: 'SutonnyOMJunicode';
+    font-size: 24px;
+    outline: none;
+    padding: 5px 5px 5px 5px;
+    width: 350px;
+    border: 1px solid #3190b0;
+    color: #000a0e;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+ padding: 7px 16px 15px 17px;
+}
+.CreateDarjo{
+    font-family: 'SutonnyOMJunicode';
+    font-size: 24px;
+    outline: none;
+    padding: 5px 5px 5px 5px;
+    width: 338px;
+    border: 1px solid #3190b0;
+    color: #000a0e;
+    border-radius: 10px;
+    margin-top: 20px;
+}

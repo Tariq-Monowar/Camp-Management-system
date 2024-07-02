@@ -1,0 +1,119 @@
+.profleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.profileContent {
+  min-width: 270px;
+  font-family: normal;
+  text-align: center;
+  background: #e0deff57;
+  padding: 20px 15px;
+  border-radius: 10px;
+  box-shadow: rgb(166 166 177 / 76%) 1px 2px 6px 0px;
+}
+.bgimage {
+  margin: 0px auto;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-size: cover;
+  width: 160px;
+  height: 160px;
+  border-radius: 10px;
+}
+.profileContent p {
+  font-size: 22px;
+  margin-top: 10px;
+}
+.updateProfile {
+  background: #2d94bdc7;
+  border: none;
+  /* font-weight: bold; */
+  font-size: 21px;
+  padding: 5px 0px 6px 0px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: #fff;
+  /* margin-bottom: 20px; */
+  user-select: none;
+  width: 85%;
+}
+.updateProfile:hover {
+  transition: 0.2s;
+  background: #2d94bdea;
+  /* transform: scale(1.04); */
+}
+.updateProfile:active {
+  opacity: 0.6;
+  transform: scale(0.96);
+}
+.adminImageShow {
+  width: 260px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: -10px;
+}
+.adminImageShow label {
+  font-size: 50px;
+  color: hsla(197, 97%, 30%, 0.882);
+  text-align: center;
+  margin-bottom: -10px;
+}
+.adminImageShow label:hover {
+  transition: 0.2s;
+  color: #048abee1;
+}
+.adminImageShow label:active {
+  opacity: 0.7;
+  transform: scale(0.96);
+}
+.crosUpdateImage {
+  float: right;
+  margin-bottom: -20px;
+  z-index: 1;
+  position: relative;
+  background: #013950e1;
+  color: #ffffff;
+  border-bottom-left-radius: 10px;
+}
+.crosUpdateImage:hover {
+  transition: 0.2s;
+  background: #026d97fb;
+}
+.crosUpdateImage:active {
+  opacity: 0.6;
+}
+.showUpdateImage {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.inpForm {
+  text-align: center;
+}
+.inpForm input {
+  font-size: 21px;
+  border-radius: 7px;
+  border: 1px solid #2d94bdc7;
+  padding: 3px 5px 3px 5px;
+  margin: 20px 0px 16px 0px;
+  outline: none;
+}
+.inpForm button {
+  font-size: 20px;
+  border: none;
+  background: #1484b1e3;
+  color: #fff;
+  width: 97%;
+  padding: 4px 0px 4px 0px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.inpForm button:hover {
+  transition: 0.2s;
+  background: #0a91c7e3;
+}
+.inpForm button:active {
+  opacity: 0.6;
+}

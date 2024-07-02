@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "SutonnyOMJunicodes";
+    src: url("../../../assets/font/SutonnyOMJunicode.ttf");
+  }
+.languageSet{
+    font-family: "SutonnyOMJunicodes";
+}
+.banglaConvert{
+    font-family: "SutonnyOMJunicode";
+}

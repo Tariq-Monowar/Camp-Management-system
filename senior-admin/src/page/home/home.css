@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "SutonnyOMJunicodes";
+  src: url("../../assets/font/SutonnyOMJunicode.ttf");
+}
+
+.homePageContainers {
+  width: 100%;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.homeTitles {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.indexbtn {
+  text-align: center;
+}
+
+.homepageIndexBtn {
+  margin: 10px 10px 7px 10px;
+  font-weight: bold;
+  text-transform: none;
+  border-radius: 10px;
+  background: #2f96be;
+  width: 230px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  font-size: 18px;
+  border: none;
+  color: #fff;
+  
+}
+.homepageIndexBtn:hover {
+  transition: 0.1s;
+  background: rgb(66, 176, 219);
+}
+.homepageIndexBtn:active {
+  /* transition: .1s; */
+  transform: scale(0.95);
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 390px) {
+  .homeTitles {
+    font-size: 29px;
+  }
+}
+
+.homeCampList {
+  width: 100%;
+  height: 80vh;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+  margin-top: -40px;
+}
+
+.homeCampList::-webkit-scrollbar {
+  width: 5px;
+}
+
+.homeCampList::-webkit-scrollbar-thumb {
+  background-color: #9dd7ee;
+  border-radius: 15px;
+}
+
+.homeCampList::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.campEntBtns {
+  width: 400px;
+  margin: 10px 0px;
+}
+.campEntBtns button {
+  width: 100%;
+  font-size: 20px;
+  min-height: 39px;
+  color: #fff;
+  background-color: #2490bbef;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-family: "SutonnyOMJunicodes";
+  padding: 6px 10px 6px 10px;
+  font-size: 24px;
+}
+.campEntBtns button:hover {
+  transition: 0.1s;
+  background-color: #1279a1ef;
+}
+.campEntBtns button:active {
+  opacity: 0.6;
+}
+.campHead {
+  font-family: "SutonnyOMJunicode", serif;
+  margin-bottom: 20px;
+  margin-top: -35px;
+}
+@media only screen and (max-width: 420px) {
+  .campEntBtns {
+    width: 100vw;
+    padding: 0px 15px;
+    text-align: center;
+  }
+  .campEntBtns button {
+    width: 90%;
+    font-size: 20px;
+  }
+}

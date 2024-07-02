@@ -1,0 +1,109 @@
+/* .campTalika {
+  margin-top: -40px;
+} */
+
+.detalseInfo{
+    text-decoration: none;
+    color: #0c77a1;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.detalseInfo:active{
+    color: #45caff;
+}
+.campName{
+  white-space: nowrap;
+}
+
+
+
+.animation-hr{
+  width: 350px;
+  margin: 0px auto;
+}
+.hr1{
+  animation: hr1 2s ease infinite;
+}
+@keyframes hr1 {
+   0% {
+     width: 15%;
+   }
+   50% {
+     width: 100%;
+   }
+   100% {
+     width: 15%;
+   }
+
+}
+
+.hr2{
+  animation: hr2 2s ease infinite;
+}
+@keyframes hr2 {
+   0% {
+     width: 100%;
+   }
+   50% {
+     width: 15%;
+   }
+   100% {
+     width: 100%;
+   }
+
+}
+.hr3{
+  margin-left: auto;
+  animation: hr3 2s ease infinite;
+}
+@keyframes hr3 {
+  0% {
+     width: 100%;
+   }
+   50% {
+     width: 15%;
+   }
+   100% {
+     width: 100%;
+   }
+
+}
+.hr4{
+  margin-left:  auto;
+  animation: hr4 2s ease infinite;
+}
+@keyframes hr4 {
+   0% {
+     width: 15%;
+   }
+   50% {
+     width: 100%;
+   }
+   100% {
+     width: 15%;
+   }
+
+}
+.animation-hr hr{
+  height: 3px;
+  border-radius: 5px;
+  background-image: linear-gradient(to right top,#031624, #2f728c, #70a8c4, #29b2b2, #c5e9f7);
+  opacity: 100;
+  margin-bottom: 3px;
+  margin-top: 6px;
+  border: none;
+}
+
+
+@keyframes weather {
+  0%{
+      transform: scale(1.0);
+  }
+  50%{
+      transform: scale(1.2);
+  }
+  100%{
+      transform: scale(1.0);
+  }
+}

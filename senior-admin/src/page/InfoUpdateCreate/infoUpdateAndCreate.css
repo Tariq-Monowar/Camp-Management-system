@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@200;300;400;500;600&display=swap");
+
+.detalseInformation {
+  font-family: "Noto Sans", sans-serif;
+}
+.detalseInfoNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 9vh;
+  background: #c5e9f7;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  position: fixed;
+  width: 100%;
+}
+.detalseInfoNav h1 {
+  font-size: 27px;
+  color: #000c11;
+  font-family: "SutonnyOMJunicode";
+}
+
+.goback {
+  position: absolute;
+  left: 0;
+  margin-left: 20px;
+  color: #027aa5c7;
+  font-size: 28px;
+}
+.goback:hover {
+  transition: 0.2s;
+  transform: scale(1.07);
+  color: #027aa5ec;
+}
+.goback:active {
+  transition: 0.2s;
+  transform: scale(0.97);
+  color: #00658aec;
+  opacity: .6;
+}
+.infoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15vh;
+}
+
+.createdOnData{
+    width: 200px;
+    background-color: #a9cbd142;
+    border-radius: 10px;
+    /* text-align: center; */
+    font-family: "Noto Serif",serif;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+   text-align: center;
+   margin: 0px 20px;
+}
+.createdOnData p{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.byAbator img{
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.byName span{
+    font-style: normal;
+    font-size: 18px;
+    color: #01141c;
+    font-weight: normal;
+    letter-spacing: .5px;
+}
+
+
+
+@media only screen and (max-width: 522px) {
+    .infoContainer {
+        flex-direction: column;
+    }
+    .updatedOnData{
+        margin-top: 25px;
+    }
+    .goback{
+        font-size: 24px;
+    }
+    .detalseInfoNav h1 {
+        font-size: 24px;
+        color: #000c11;
+        font-family: "SutonnyOMJunicode";
+      }
+}
