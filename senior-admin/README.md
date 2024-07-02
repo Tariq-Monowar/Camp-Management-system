@@ -1,1 +1,2 @@
-# camp-management-system-senior-admin
+# senior-admin
+camp-management-system
